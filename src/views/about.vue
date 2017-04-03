@@ -1,12 +1,5 @@
 <template>
-    <div>
-        <h1>My app is below:</h1>
-        <router-link to="/home">Home</router-link>
-        <router-link to="/about"> About us</router-link>
-        <router-link to="/login"> Login Now!</router-link>
-
-        <router-view></router-view>
-    </div>
+    <h1>About Me!</h1>
 </template>
 
 <script>
@@ -14,7 +7,7 @@
     import _ from 'lodash';
 
     export default {
-        props: ['menu'],
+        props: [''],
         data: function () {
             return {
             };
@@ -34,9 +27,5 @@
 </script>
 
 <style lang="less" scoped rel="stylesheet/less">
-
-    .router-link-active {
-        color: red;
-    }
 
 </style>

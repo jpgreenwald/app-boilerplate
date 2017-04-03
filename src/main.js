@@ -13,9 +13,11 @@ import 'normalize.css';
 import 'font-awesome/css/font-awesome.css';
 import 'hint.css';
 
-//semantic-ui
-import './vendor/semantic.min.js';
-import './vendor/semantic.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+
+import swal from 'sweetalert2';
+import 'sweetalert2/dist/sweetalert2.min.css';
 
 //custom less
 import './main.less';
@@ -27,6 +29,7 @@ import routes from './routes';
 Vue.prototype.$http = axios;
 Vue.$http = Vue.prototype.$http;
 
+Vue.prototype.$swal = swal;
 
 //custom components
 import SampleView from './components/sample.vue';

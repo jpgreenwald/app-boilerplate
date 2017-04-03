@@ -1,5 +1,5 @@
 <template>
-    <h1>Sample View</h1>
+    <h1>Sample View: Michael</h1>
 </template>
 
 <script>
