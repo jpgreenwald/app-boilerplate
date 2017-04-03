@@ -7,3 +7,11 @@
 - Semantic-UI css
 - Babel for transpiling
 - PostCSS for cross browser prefix support
+- Yarn
+- Heroku compatible deploy/start
+
+## Usage
+
+- install dependencies: ```yarn```
+- run dev server: ```npm run dev```
+- run production: ```npm start```
