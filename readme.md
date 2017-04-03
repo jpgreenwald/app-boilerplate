@@ -9,6 +9,7 @@
 - PostCSS for cross browser prefix support
 - Yarn
 - Heroku compatible deploy/start
+- Socket.io
 
 ## Usage
 
